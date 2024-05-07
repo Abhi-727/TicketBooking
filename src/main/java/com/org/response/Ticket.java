@@ -1,18 +1,16 @@
-package com.example.response;
-
-import javax.xml.bind.annotation.XmlRootElement;
+package com.org.response;
 
 import lombok.Data;
 
 @Data
-@XmlRootElement
 public class Ticket {
 	
 	private Integer ticketId;
 	private String from;
 	private String to;
+	private String ticketStatus;
+	private String ticketCost;
 	private String trainNum;
-	private String tktcost;
-	private String tktStatus;
+	
 	
 }

@@ -7,11 +7,11 @@
 		<version>2.5.6-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>TicketBooking</artifactId>
+	<groupId>com.org</groupId>
+	<artifactId>MakeMyTrip</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TicketBooking</name>
-	<description>TicketBooking </description>
+	<name>MakeMyTrip</name>
+	<description>client application </description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -27,28 +27,19 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.6.1</version>
-		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>2.6.1</version>
-		</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

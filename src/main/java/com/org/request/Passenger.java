@@ -1,4 +1,4 @@
-package com.example.request;
+package com.org.request;
 
 import lombok.Data;
 
@@ -7,9 +7,8 @@ public class Passenger {
 	
 	private String fname;
 	private String lname;
+	private String doj;
 	private String from;
 	private String to;
-	private String doj;
 	private String trainNum;
-	
 }
